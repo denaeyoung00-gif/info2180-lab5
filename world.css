@@ -1,18 +1,65 @@
-header h1{
-font-family: 'Times New Roman', Times, serif;
-background-color: #367588;
-
-}
-
-body{
-    background-color: #185E3F;
+body {
+    margin: 0;
+    background: #f4f7fa;
     font-family: Arial, sans-serif;
+    color: #287AB8;
 }
 
-table, th, td {
-     border: 1px solid black; border-collapse: collapse;
-     position: center;
-    }
-th, td {
-     padding: 6px 10px;
-     }
+header {
+    background: #064E40;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: white;
+    font-family: Georgia, serif;
+    position: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 30px auto;
+    text-align: center;
+
+}
+
+#country {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    border: 1px solid #cbd5e0;
+    border-radius: 3px;
+}
+
+#controls button {
+    margin: 12px 4px;
+    padding: 6px 14px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+}
+
+#lookup { background: #38b2ac; }
+#Lookup-Cities { background: #4299e1; }
+
+#result table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+    background: white;
+    border: 1px solid #e2e8f0;  
+    color : #2d3748;
+}
+
+#result th, #result td {
+    padding: 8px 12px;
+    border: 1px solid #e2e8f0;
+    text-align: left;
+}
+
+#result tr:nth-child(even) {
+    background: #f7fafc;
+}
